@@ -300,7 +300,7 @@ The demo account is pre-seeded with watch inventory and simulated platform conne
 
 - **Live product:** [colistable.com](https://colistable.com)
 - **Chrome extension:** [Chrome Web Store](https://chromewebstore.google.com/detail/colistable-for-forums/)
-- **Video walkthrough:** [Loom link]
+- **Video walkthrough:** [[Loom link](https://www.loom.com/share/7a535dd9da314a9685d2d36ad4354302)]
 
 ---
 
