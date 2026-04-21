@@ -282,6 +282,8 @@ The demo account is pre-seeded with watch inventory and simulated platform conne
 
 5. **Automated forum post scheduling** — queue forum posts and publish at optimal times based on forum traffic patterns and timezone-aware scheduling.
 
+6. **Unified Messaging Inbox** - centralized inbox that consolidates messages for sellers across multiple platforms (eBay, Facebook, Whatsapp, Instagram, Reddit). Sellers can easily respond to sales inquiries from CoListable, rather than juggling tabs and letting important messages slip through the cracks.
+
 ---
 
 ## Codebase Overview
