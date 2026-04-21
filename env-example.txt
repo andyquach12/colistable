@@ -1,0 +1,62 @@
+# =============================================================================
+# CoListable — Environment Variables
+# =============================================================================
+# Copy this file to .env and fill in your values.
+# NEVER commit .env to version control.
+# =============================================================================
+
+# --- Frontend (Vite) ---
+VITE_SUPABASE_URL="https://your-project.supabase.co"
+VITE_SUPABASE_PUBLISHABLE_KEY="your_supabase_anon_key"
+VITE_SUPABASE_PROJECT_ID="your_project_id"
+VITE_POSTHOG_KEY="your_posthog_project_api_key"
+VITE_COLISTABLE_EXTENSION_ID="your_chrome_extension_id"
+
+# --- Supabase (also used by edge functions at runtime) ---
+SUPABASE_URL="https://your-project.supabase.co"
+SUPABASE_PUBLISHABLE_KEY="your_supabase_anon_key"
+SUPABASE_ANON_KEY="your_supabase_anon_key"
+SUPABASE_SERVICE_ROLE_KEY="your_supabase_service_role_key"
+
+# --- eBay Integration ---
+EBAY_CLIENT_ID="your_ebay_app_id"
+EBAY_CLIENT_SECRET="your_ebay_cert_id"
+EBAY_VERIFICATION_TOKEN="your_ebay_webhook_verification_token"
+EBAY_DELETION_ENDPOINT="your_ebay_account_deletion_endpoint"
+
+# --- Shopify Integration ---
+SHOPIFY_CLIENT_ID="your_shopify_client_id"
+SHOPIFY_CLIENT_SECRET="your_shopify_client_secret"
+
+# --- Facebook ---
+FB_TOKEN_ENCRYPTION_KEY="your_encryption_key_for_fb_tokens"
+
+# --- Stripe (Billing) ---
+STRIPE_SECRET_KEY="sk_test_your_stripe_secret_key"
+STRIPE_WEBHOOK_SECRET="whsec_your_stripe_webhook_secret"
+
+# --- Email (Resend) ---
+RESEND_API_KEY="re_your_resend_api_key"
+
+# --- AI / LLM ---
+LOVABLE_API_KEY="your_lovable_api_key"
+
+# --- Image CDN ---
+# ImageKit public URL is set in src/lib/image-utils.ts
+# Update that file with your own ImageKit endpoint
+
+# --- External Services ---
+FIRECRAWL_API_KEY="your_firecrawl_api_key"
+THEWATCHAPI_TOKEN="your_thewatchapi_token"
+
+# --- Webhooks ---
+ZAPIER_BETA_WEBHOOK_URL="your_zapier_webhook_url"
+
+# --- Marketplace Chat (Optional) ---
+EBAY_CHAT_INBOX_URL="your_ebay_chat_inbox_url"
+EBAY_CHAT_REPLY_URL="your_ebay_chat_reply_url"
+CHRONO24_CHAT_INBOX_URL="your_chrono24_chat_inbox_url"
+CHRONO24_CHAT_REPLY_URL="your_chrono24_chat_reply_url"
+
+# --- App ---
+APP_URL="https://colistable.com"
